@@ -1,0 +1,51 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+#app{
+
+}
+
+.box{
+    background: #df78ef;
+    color: #4a0072;
+    padding: 10px;
+    width: 40rem;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.box:hover{
+    background: #9a67ea;
+}
+
+.box2{
+    padding-top: 5px;
+    background: #9a67ea;
+}
+
+.box2:hover{
+    background: #6ec6ff;
+}
+
+.box3{
+    padding-top: 5px;
+    background: #6ec6ff;
+}
+
+.box3:hover{
+    background: #df78ef;
+}
